@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.env
+*.env.*
+!*.env.example
+
+# SQLite & databases
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+web-build/
+.expo/
+*.tsbuildinfo
+
+# Native Android / iOS
+/client/ios/
+/client/android/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor & OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+

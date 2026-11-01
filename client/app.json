@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "ride",
+    "slug": "ride",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/brand/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FFFFFF",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "ng.ride.app"
+    },
+    "android": {
+      "package": "ng.ride.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF",
+        "foregroundImage": "./assets/brand/icon.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/brand/icon.png",
+      "name": "ride — Zaria · Kaduna · Kano",
+      "themeColor": "#0B1B3F",
+      "backgroundColor": "#FFFFFF"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/brand/splash.png",
+          "imageWidth": 220,
+          "resizeMode": "contain",
+          "backgroundColor": "#FFFFFF"
+        }
+      ],
+      "expo-secure-store"
+    ]
+  }
+}
